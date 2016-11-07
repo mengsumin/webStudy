@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<span id="now">
+			
+		</span>
+		<input type="button" id="btn" value="停止" />
+		<script type="text/javascript">
+			var timer = null;
+			function showtime(){
+				var now = new Date();
+				var year = now.getFullYear();
+				var mon = now.getMonth()+1;
+				var date = now.getDate();
+				var hour = now.getHours();
+				var min = now.getMinutes();
+				var sec = now.getSeconds();
+				var time = year+"年"+mon+"月"+date+"日"+" "+hour+"："+min+":"+sec;
+				var oSpan = document.getElementById("now");
+				oSpan.innerHTML = time;
+				
+				timer = setTimeout(showtime,1000);//1秒钟后执行now,定时器
+			}
+			
+			showtime();
+			
+			var oBtn = document.getElementById("btn");
+			oBtn.onclick = function () {
+				clearTimeout(timer);
+			}
+			
+		</script>
+	</body>
+</html>

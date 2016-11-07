@@ -1,0 +1,313 @@
+*{
+	border: 0px;
+	margin: 0px;
+}
+a:link
+{
+	text-decoration: none;
+}
+#header
+{
+    width: 100%;
+    height: 100px;
+    box-shadow:  2px 4px 6px #F1F1F1;
+ /*   border-bottom: 6px solid #F1F1F1;*/
+}
+
+#header #headpicture{
+	width:213px;
+	height: 46px;
+	background-image: url(../img/head.jpg);
+	float: left;
+	position: relative;
+	top:24px;
+	left: 44px;
+	
+}
+#header #huanying
+{
+	width: 200px;
+	height: 100px;
+	float:  left;
+	text-align: center;
+	line-height: 100px;
+		
+}
+#huanying p
+{
+	
+}
+#header h3
+{
+	font-weight: normal;
+}
+#denglu
+{
+	height: 100px;
+	width: 200px;
+	float: right;
+}
+#denglu  p a:link
+{
+	line-height: 100px;
+	text-decoration: none;
+}
+#denglu a{
+	color: black;
+	
+}
+#denglu p{
+	font-family: "微软雅黑";
+	color: #999;
+}
+#content
+{
+	width: 100%;
+	height: 750px;
+	
+}
+#content #biaodan
+{
+	width:750px;
+	height: 750px;
+
+	float: left;
+}
+#biaodan #firstwenbenkuang
+{
+	margin-top: 55px;
+}
+#content .wenbenkuang
+{
+	height: 55px;
+	width: 400px;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	margin-left: 262px;
+	margin-top: 32px;
+	float: left;
+	
+}
+.xiaotishi
+{
+	height: 30px;
+	width: 400px;
+	margin-left: 262px;
+	
+}
+.wenbenkuang .tishi
+{
+	width:132px;
+	height: 100%;
+	font-size: 14px;
+	 
+}
+
+.tishi span
+{
+	text-align: center;
+	display: block;
+
+		line-height: 55px;
+		height: 55px;
+		width: 132px;
+		float: left;
+}
+.dianhua
+{
+	border-right: 1px solid #DDDDDD;
+}
+#xialakuang
+{
+	z-index: 99999;
+    height: 322px;
+    width: 140px;	
+    border: 1px solid #DDDDDD;
+
+    background-color: white;
+    position: absolute;
+    
+}
+#xialakuang div
+{
+	width: 100%;
+	height:33px ;
+	text-align: center;
+	line-height: 33px;
+}
+#xialakuang a
+{
+	color: #999999;
+}
+#xialakuang div:hover
+{
+	background-color: #F6F6F6;
+}
+
+button
+{
+	text-align: center;
+	height: 55px;
+	width: 132px;
+	background: #FFFFFF;
+	border-right: #DDDDDD ;
+}
+.wenbenkuang .shuru
+{
+	width: 200px;
+	float: left;
+	height: 50px;
+	border-top: 0px;
+	position: relative;
+	top:-55px;
+	left: 132px;
+}
+#biaodan p
+{
+	text-align: center;
+	font-size: 13px;
+	display: block;
+	height: 55px;
+	width: 400px;
+	line-height: 55px;
+	margin-left: 262px;
+	float: left;
+	
+}
+input
+{
+	outline: none;
+}
+#content #anniu
+{
+	height: 55px;
+	width: 400px;
+	border: 1px solid red;
+	margin-left: 262px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	float: left;
+}
+#anniu input
+{height: 55px;
+	width: 400px;
+	background-color: red;
+	color: white;
+	
+}
+em{
+    
+	font-size: 12px;
+	position: relative;
+	text-align: left;
+	color: #DDDDDD;
+	font-family: "微软雅黑";
+	letter-spacing: 4px;
+}
+input{
+	outline: medium;
+}
+.shuru input
+{
+	height: 45px;
+	width: 150px;
+	position: relative;
+	left: 5px;
+}
+#duanxin
+{
+	height: 605px;
+	width:580px;
+	border-left: 1px solid #EDEDED;
+	float: left;
+	margin-top: 55px;
+}
+#duanxin #tupian{
+	height: 284px;
+	width:226px;
+	background-image: url(../img/tupian.png);
+	margin-left: 94px;
+	
+}
+
+#qiyezhuce
+{
+	width: 160px;
+	height: 100px;
+	border-bottom:  1px solid #DDDDDD;
+	text-align: center;
+	line-height: 100px;
+	margin-left: 120px;
+	
+	
+}
+#qiyezhuce a{
+	color: #666666;
+	font-size: 14px;
+}
+#qiyezhuce a:hover
+{
+	font-weight: bold;
+	color: black;
+}
+#yingwen
+{
+		text-align: center;
+		width: 160px;
+		margin-left: 120px;
+}
+#yingwen a
+{
+	color: #666666;
+}
+#yingwen a:hover
+{
+	font-weight: bold;
+	color: black;
+}
+#booter
+{
+	width:1210px;
+	height: 100px;
+	border-top:  1px solid #DDDDDD;
+	margin-left: 70px;
+}
+#first
+{
+	width:1210px ;
+	height:50px;
+}
+#banquan
+{
+	width:1210px ;
+	height:50px;
+	text-align: center;
+	
+}
+#booter #first li
+{
+	
+	display: block;
+	float: left;
+	font-size: 14px;
+	width: 76px;
+	height: 17px;
+	border-right: 1px solid #DDDDDD;
+	position: relative;
+	left:130px;
+	margin-top: 20px;
+
+}
+#first li a{
+	color:#99B2D8 ;
+	font-size: 10px;
+	font-family: "微软雅黑";
+}
+
+#banquan p
+{
+	color:#99B2D8 ;
+	font-size: 10px;
+	font-family: "微软雅黑";
+	line-height: 50px;
+}

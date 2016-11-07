@@ -1,0 +1,11 @@
+#f2{
+	
+	height: 510px;
+}
+.floor-nav{
+	border: 1px solid #ededed;
+	border-bottom: none;
+}
+.floor-nav li{
+	float: left;
+}

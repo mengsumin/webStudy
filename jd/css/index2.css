@@ -1,0 +1,155 @@
+#lunbo{
+	margin: 12px 4px 0;
+	width: 730px;
+	height: 455px;
+	border: 1px solid saddlebrown;
+	overflow: hidden;
+	position: relative;
+}
+#lunbo ul{
+	width: 4380px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#lunbo li{
+	float: left;
+}
+
+#floor-6{
+	margin: 18px auto;
+	height: 586px;
+}
+
+#floor-6 .nav{
+	height: 41px;
+}
+#floor-6 .nav span{
+	color: white;
+	font-size: 12px;
+	line-height: 24px;
+	/*display: inline-block;*/
+	float: left;
+	width: 30px;
+	height: 24px;
+	background: url(../img/product_home_1.0.0.png)0 0;
+	text-align: center;
+}
+#floor-6 .nav h2{
+	font-size: 20px;
+	height: 24px;
+	line-height: 24px;
+	color: #7b7b7b;
+	margin-top: 8px;
+}
+#floor-6 .nav ul{
+	float: right;
+	border: 1px solid #ededed;
+	border-bottom: none;
+}
+#floor-6 .nav ul li{
+	float: left;
+	padding: 11px 17px;
+	font-size: 12px;
+	color: #666666;
+}
+
+#floor-6 .nav ul li.sperator{
+	width: 1px;
+	height: 14px;
+	padding: 0;
+	background: #cccccc;
+	position: relative;
+	top: 14px;
+}
+
+#floor-6 .content{
+	border-top: 1px solid #c81623;
+	height: 475px;
+}
+
+#floor-6 .content .col1{
+	height: 100%;
+	width: 210px;
+	background:url(../img/579aa8ffN153573cb.jpg);
+	
+	
+}
+#floor-6 .content .col2{
+	height: 100%;
+	width: 1000px;
+}
+#floor-6 .content .col1 ul{
+	position: relative;
+	top: 248px;
+	margin-left: 8px;
+}
+#floor-6 .content .col1 li{
+	height: 28px;
+	width: 92px;
+	float: left;
+	margin: 0 2px 2px 0;
+}
+#floor-6 .content .col1 li a{
+	height: 28px;
+	width: 92px;
+	float: left;
+	font-size: 14px;
+	color: #666666;	
+	line-height: 28px;
+}
+#floor-6 .content .col1 li a span{
+	float: left;
+	width: 26px;
+	height: 26px;
+	background: url(../img/sportsicon.png);
+}
+
+#floor-6 .content .col1 li:nth-of-type(1) span{
+	background-position:0 0;
+}
+#floor-6 .content .col1 li:nth-of-type(2) span{
+	background-position:0 -26px;
+}
+#floor-6 .content .col1 li:nth-of-type(3) span{
+	background-position:0 -52px;
+}
+#floor-6 .content .col1 li:nth-of-type(4) span{
+	background-position:0 -78px;
+}
+
+#floor-6 .nav .actived{
+	color: red;
+	border-top: 3px #C81623 solid;
+	border-left: 1px #C81623 solid;
+	border-right: 1px #C81623 solid;
+	
+}
+.products-info{
+	display: none;
+}
+.products-info.actived{
+	display: block;
+}
+#floor-6 .content .col2>div.actived{
+	display: block;
+}
+.product-info{
+	float: left;
+	width: 163px;
+	height: 205px;
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	padding: 16px 18px;
+}
+.product-info img{
+}
+.product-info a{
+	font-size: 12px;
+}
+.product-info span{
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+}
+

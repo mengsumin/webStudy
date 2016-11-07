@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>
+		</title>
+		<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	</head>
+	<body>
+		<div id="main">
+			<div id="one">
+
+				<span id="locate" onmouseover="watch()" onmouseleave="nowatch()">
+					送至：北京
+                    <div id="caidan" style="display: none;">
+					 <a href="" id="beijing"  onclick="dianji(this.id,this.innerHTML)">北京</a>
+					 <a href="" id="shanghai" onclick="dianji(this.id,this.innerHTML)">上海</a>
+					 <a href="" id="tianjing" onclick="dianji(this.id,this.innerHTML)">天津</a>
+					 <a href="" id="chongqing" onclick="dianji(this.id,this.innerHTML)">重庆</a>
+					 <a href="" id="hebei" onclick="dianji(this.id,this.innerHTML)">河北</a>
+					 
+					 <a href="" id="shanxi" onclick="dianji(this.id,this.innerHTML)">山西</a>
+					 <a href="" id="henan" onclick="dianji(this.id,this.innerHTML)">河南</a>
+					 <a href="" id="liaoning" onclick="dianji(this.id,this.innerHTML)">辽宁</a>
+					 <a href="" id="jilin" onclick="dianji(this.id,this.innerHTML)">吉林</a>
+					 <a href="" id="heilongjiang" onclick="dianji(this.id,this.innerHTML)">黑龙江</a>
+					 
+					 <a href="" id="neimenggu" onclick="dianji(this.id,this.innerHTML)">内蒙古</a>
+					 <a href="" id="jiangsu" onclick="dianji(this.id,this.innerHTML)">江苏</a>
+					 <a href="" id="liaoning" onclick="dianji(this.id,this.innerHTML)">辽宁</a>
+					 <a href="" id="anhui" onclick="dianji(this.id,this.innerHTML)">安徽</a>
+					 <a href="" id="zhejiang" onclick="dianji(this.id,this.innerHTML)">浙江</a>
+					 
+					 <a href="" id="fujian" onclick="dianji(this.id,this.innerHTML)">福建</a>
+					 <a href="" id="hubei" onclick="dianji(this.id,this.innerHTML)">湖北</a>
+					 <a href="" id="hunan" onclick="dianji(this.id,this.innerHTML)">湖南</a>
+					 <a href="" id="guangdong" onclick="dianji(this.id,this.innerHTML)">广东</a>
+					 <a href="" id="guangxi" onclick="dianji(this.id,this.innerHTML)">广西</a>
+					 
+					 <a href="" id="jiangxi" onclick="dianji(this.id,this.innerHTML)">江西</a>
+					 <a href="" id="sichuan" onclick="dianji(this.id,this.innerHTML)">四川</a>
+					 <a href="" id="hainan" onclick="dianji(this.id,this.innerHTML)">海南</a>
+					 <a href="" id="guizhou" onclick="dianji(this.id,this.innerHTML)">贵州</a>
+					 <a href="" id="yunnan" onclick="dianji(this.id,this.innerHTML)">云南</a>
+					 
+					 <a href="" id="xizang" onclick="dianji(this.id,this.innerHTML)">西藏</a>
+					 <a href="" id="shanxi" onclick="dianji(this.id,this.innerHTML)">陕西</a>
+					 <a href="" id="gansu" onclick="dianji(this.id,this.innerHTML)">甘肃</a>
+					 <a href="" id="qinghai" onclick="dianji(this.id,this.innerHTML)">青海</a>
+					 <a href="" id="ningxia" onclick="dianji(this.id,this.innerHTML)">宁夏</a>
+					 
+					 <a href="" id="xinjiang" onclick="dianji(this.id,this.innerHTML)">新疆</a>
+					 <a href="" id="taiwan" onclick="dianji(this.id,this.innerHTML)">台湾</a>
+					 <a href="" id="xianggang" onclick="dianji(this.id,this.innerHTML)">香港</a>
+					 <a href="" id="aomen" onclick="dianji(this.id,this.innerHTML)">澳门</a>
+					 <a href="" id="diaoyudao" onclick="dianji(this.id,this.innerHTML)">钓鱼岛</a>
+					 
+					 <a id="haiwai" href="" onclick="dianji(this.id,this.innerHTML)">海外</a>
+					 
+					
+					
+				</div>
+				</span>
+				  <div id="myorder">
+				  	<ul>
+				  		<li class="caidan"><a href="">你好，请登录 <span style="color: #C81623;">免费注册</span></a></li>
+				  		<li class="caidan"><a href="">我的订单</a></li>
+				  		<li class="caidan">
+				  			<a href="" onmouseleave="noviewJD()" onmouseover="viewJD()">我的京东
+				  		<div id="jingdong" style="display: none;" >
+				  				<div id="jd-icon">
+				  					
+				  				</div>
+				  				<div id="jd-text">
+				  					<a href="">您好请登录</a>
+				  					<br />
+				  					<span id="jd-text-border"><a href="">优惠券</a></span>
+				  					<span><a href="">消息</a></span>
+			
+				  				</div>
+				  				<div id="jd-text-list">
+				  					<ul>
+				  						<li><a href="">我的京东</a></li>
+				  						<li><a href="">我的京东</a></li>
+				  						<li><a href="">我的京东</a></li>
+				  						<li><a href="">我的京东</a></li>
+				  						<li><a href="">我的京东</a></li>
+				  						<li><a href="">我的京东</a></li>
+				  						<li><a href="">我的京东</a></li>
+				  						<li><a href="">我的京东</a></li>
+				  						
+				  					</ul>
+				  				</div>
+				  			</div>
+				  		</a>
+				  			
+				  		</li>
+				  		
+				  		<li class="caidan"><a href="">京东会员</a></li>
+				  		<li class="caidan"><a href="">企业采购</a></li>
+				  		<li class="caidan"><a href="" onmouseover="sjJDview()" onmouseleave="sjJDnoview()">手机京东
+				  			<div id="shoujiJD" style="display: none;">
+				  				<div id="sj-client">
+				  					 <div id="red">
+				  					 	  
+				  					 </div>
+				  					 <div id="red-right">
+	                                            <div id="red-rightText">
+	                                            	<p>京东客户端</p>
+				  					 	  		<p>新人专享166大礼包</p>
+	                                            </div>
+	                                            <div id="red-icon">
+	                                            	<div id="iphone-icon">
+	                                            		
+	                                            	</div>
+	                                            	<div id="android-icon">
+	                                            		
+	                                            	</div>
+	                                            	<div id="ipad-icon">
+	                                            		
+	                                            	</div>
+	                                            	
+	                                            </div>
+				  					 	  </div>
+				  				</div>
+				  				<div id="sj-money-client">
+				  					<div id="black">
+				  						  
+				  					</div>
+				  					<div id="black-right">
+				  						  	   <div id="red-rightText">
+	                                            	<p>京东客户端</p>
+				  					 	  		<p>新人专享166大礼包</p>
+	                                            </div>
+				  					 	  		<div id="black-iphone-icon">
+	                                            		
+	                                            	</div>
+	                                            	<div id="black-android-icon">
+	                                            		
+	                                            	</div>
+				  					</div>
+				  				</div>
+				  			</div>
+				  		
+				  		</a></li>
+				  		
+				  		<li class="caidan" onmouseover="certain()" onmouseleave="nocertain()"><a href="" >关注京东
+				  			<div id="certainJD" style="display: none;">
+				  				
+				  				
+				  			</div>
+				  			
+				  		</a></li>
+				  		<li class="caidan" onmouseleave="noviewserve()" onmouseover="viewserve()"><a href="" >客户服务
+				  			<div id="serve" style="display: none;">
+				  				<div id="serve-user">
+				  					<p>客户</p>
+				  					<div id="user-list">
+				  						<ul>
+				  							<li>帮助中心</li>
+				  							<li>帮助中心</li>
+				  							<li>帮助中心</li>
+				  							
+				  							<li>帮助中心</li>
+				  							<li>帮助中心</li>
+				  							<li>帮助中心</li>
+				  						</ul>
+				  					</div>
+				  				</div>
+				  				<div id="serve-company">
+				  					<p>商户</p>
+				  					<ul>
+				  						<li>商家入驻 </li>
+				  						<li>商家入驻 </li>
+				  					</ul>
+				  				</div>
+				  			</div>
+				  		</a></li>
+				  		<li class="caidan" onmouseover="viewnative()" onmouseleave="noviewnative()"><a href="" >网站导航	
+				  			<div id="native-net" style="display: none;z-index: 9999;">
+				  				<div class="native-first" >
+				  					<p>特色主题</p>
+				  					<div class="list-list">
+				  						<ul>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  						</ul>
+				  					</div>
+				  				</div>
+				  				<div class="native-list">
+				  					<p>特色主题</p>
+				  					<div class="list-list">
+				  						<ul>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				 
+				  						</ul>
+				  					</div>
+				  					
+				  				</div>
+				  				<div class="native-list">
+				  					<p>特色主题</p>
+				  					<div class="list-list">
+				  						<ul>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+
+				  						</ul>
+				  					</div>
+				  					
+				  				</div>
+				  				<div class="native-list">
+				  					<p>特色主题</p>
+				  					
+				  					<div class="list-list">
+				  						<ul>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							<li>品牌街</li>
+				  							
+				  						</ul>
+				  					</div>
+				  				</div>
+				  			</div>
+				  		</a></li>
+				  	</ul>
+				  </div>
+				  
+				
+			</div>
+			
+			<div id="two" style="display: block;">
+				  <div id="dianji-close" onclick="shutoff()">
+				  	
+				  </div>
+			</div>
+			<div id="three">
+				<div id="three-up">
+					<div id="mark">
+					
+					</div>
+					<div id="search">
+						 <form action="" method="post">
+						 	<input type="text" name="" id="keywords" value="" placeholder="金融"/>
+						 	<input type="submit" value="搜索"  id="serch-button"/>
+						 </form>
+						<div id="serchdown">
+							<ul>
+								<li style="color: #C81623;"><a href="">红牛</a></li>
+								<li><a href="">红牛</a></li>
+								<li><a href="">红牛</a></li>
+								<li><a href="">红牛</a></li>
+								<li><a href="">红牛</a></li>
+								<li><a href="">红牛</a></li>
+								<li><a href="">红牛</a></li>
+								
+								<li><a href="">红牛</a></li>
+								
+							
+								
+							</ul>
+						</div>
+						
+					</div>
+				     <div id="buy-bus">
+				     	<a href="">我的购物车</a>
+				     	<span id="cover-border">
+				     		
+				     	</span>
+				     	<div id="bus-box">
+				     		 <p>没有商品选购吧</p>
+				     	</div>
+				     </div>
+				</div>
+				<div id="three-down">
+					<div id="classify-title" >
+						<a href="">全部商品分类</a>
+						<div id="four-right" >
+				   	
+				   	   <div id="right-list">
+				   	   	  <ul>
+				   	   	  	<li></li>
+				   	   	  	<li></li>
+				   	   	  	<li></li>
+				   	   	  	<li></li>
+				   	   	  	<li></li>
+				   	   	  	<li></li>
+				   	   	  </ul>
+				   	   </div>
+				   	   <div id="right-img">
+				   	   	  <div id="img-first" >
+				   	   	  	
+				   	   	  </div>
+				   	   	  <div id="img-second">
+				   	   	  	
+				   	   	  </div>
+				   	   	  <div id="img-third">
+				   	   	  	
+				   	   	  </div>
+				   	   </div>
+				   </div>
+					</div>
+				     <div id="classify-list">
+				     	<ul>
+				     		<li><a href="" style="color: #333333;">服装城</a>
+				     			
+				     		</li>
+				     		<li><a href="" style="color: #333333;">服装城</a></li>
+				     		<li><a href="" style="color: #333333;">服装城</a></li>
+				     		<li><a href="" style="color: #333333;">服装城</a></li>
+				     		
+				     		<li><a href="" style="color: #333333;">服装城</a></li>
+				     		<li><a href="" style="color: #333333;">服装城</a></li>
+				     		<li><a href="" style="color: #333333;">服装城</a></li>
+				     	</ul>
+				     </div>
+				</div>
+				
+			</div>
+			<div id="four">
+				   <div id="four-left">
+				   	  <ul>
+				   	  	<li onmouseleave="noviewfourfirst()" onmouseover="viewfourfirst()"> <a href="">手机、数码、京东通信</a>
+				   	  		
+				   	  		<div id="four-first" class="four-list-view" >
+				   	  			<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+				   	  			<p>这是第一个选项卡</p>
+                                     111111111111111111
+				     			</div>
+				   	  	</li>
+				   	  	
+				   	  	
+				   	  	
+				   	  	
+				   	  	<li onmouseover="viewfoursecond()" onmouseleave="noviewfoursecond()"> <a href="">手机、数码、京东通信
+				   	  		<div id="four-second" class="four-list-view"  >
+				     				<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+				     				、
+				     				<p >这是第二个选项卡</p>
+				     			</div>
+				   	  	</a>
+				   	  	 
+				   	  	</li>
+				   	  	<li onmouseover="viewfourthird()" onmouseleave="noviewfourthird()"> <a href="">手机、数码、京东通信</a>
+				   	  		<div id="four-third" class="four-list-view" >
+				   	  			<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+				   	  			<p>这是第三个选项卡</p>
+				   	  		</div>
+				   	  	</li>
+				   	  	<li onmouseover="viewfourfourth()" onmouseleave="noviewfourfourth()"> <a href="">手机、数码、京东通信</a>
+				   	  		<div id="four-fourth" class="four-list-view"  >
+				   	  			 <div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+				   	  			<p>这是第四个选项卡</p>
+				   	  		</div>
+				   	  	</li>
+				   	  	
+				   	  	
+				   	  	<li onmouseleave="noviewfourfifth()" onmouseover="viewfourfifth()"> <a href="">手机、数码、京东通信</a>
+				   	  		  <div id="four-fifth" class="four-list-view" >
+				   	  		  	
+                                     		
+                                     <div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>		
+                                     		
+                                   
+				   	  		  	<p>这是第五个选项卡</p>
+				   	  		  </div>
+				   	  	</li>
+				   	  	
+				   	  	<li onmouseover="viewfoursixth()" onmouseleave="noviewfoursixth()"> <a href="">手机、数码、京东通信</a>
+				   	  		<div id="four-sixth" class="four-list-view" >
+				   	  			
+				   	  			 
+                                     		
+                                     		<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+                                     		
+                                  
+                                     	<p>这是第六个选项卡</p>
+				   	  		</div>
+				   	  	</li>
+				   	  	<li onmouseover="viewfourseventh()" onmouseleave="noviewfourseventh()"> <a href="">手机、数码、京东通信</a>
+				   	  		<div id="four-seventh" class="four-list-view" >
+				   	  			
+                                     <div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>		
+                                     		
+                                     		
+                              
+				   	  			<p>这是第七个选项卡</p>
+				   	  		</div>
+				   	  	</li>
+				   	  	<li onmouseover="viewfoureighth()" onmouseleave="noviewfoureighth()"> <a href="">手机、数码、京东通信</a>
+				   	  		<div id="four-eighth" class="four-list-view" >
+				   	  			
+                                   <div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>  		
+                                     		
+                               
+				   	  			<p>这是第八个选项卡</p>
+				   	  		</div>
+				   	  	</li>
+				   	  	<li onmouseleave="noviewfourninth()" onmouseover="viewfourninth()"> <a href="">手机、数码、京东通信</a>
+				   	  		<div id="four-ninth" class="four-list-view" >
+				   	  			
+                                   <div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>  		
+                                     		
+                                     		
+                                 
+				   	  			<p>这是第九个选项卡</p>
+				   	  		</div>
+				   	  	</li>
+				   	  	
+				   	  	
+				   	  	
+				   	  	
+				   	  <li onmouseleave="noviewfourtenth()" onmouseover="viewfourtenth()"> <a href="">手机、数码、京东通信</a>
+				   	  	<div id="four-tenth" class="four-list-view" >
+				   	  			
+                                   <div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>  		
+                                     		
+                                   
+				   	  			<p>这是第十个选项卡</p>
+				   	  		</div>
+				   	  </li>
+				   	  <li onmouseleave="noviewfoureleventh()" onmouseover="viewfoureleventh()"> <a href="">手机、数码、京东通信</a>
+				   	  	   <div id="four-eleventh" class="four-list-view" >
+				   	  			
+				   	  			<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+                                 <p>这是第十一个选项卡</p>
+				   	  		</div>
+				   	  </li>
+				   	  <li onmouseleave="noviewfourtwelveth()" onmouseover="viewfourtwelveth()"> <a href="">手机、数码、京东通信</a>
+				   	  	<div id="four-twelveth" class="four-list-view" >
+				   	  			
+				   	  			<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+                                     		
+                                     		
+                                     	<p>这是第十二选项卡</p>
+				   	  		</div>
+				   	  </li>
+				   	  <li onmouseleave="noviewfourthirteenth()" onmouseover="viewfourthirteenth()"> <a href="">手机、数码、京东通信</a>
+				   	  	<div id="four-thirteenth" class="four-list-view" >
+				   	  			<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+				   	  			 <p>这是第十三个选项卡</p>
+				   	  		</div>
+				   	  </li>
+				   	  <li onmouseleave="noviewfourfourteenth()" onmouseover="viewfourfourteenth()"> <a href="">手机、数码、京东通信</a>
+				   	  	<div id="four-fourteenth" class="four-list-view" >
+				   	  			<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+				   	  			<p>这是第十四个选项卡</p>
+				   	  		</div>
+				   	  </li>
+				   	  <li onmouseleave="noviewfourfifteenth()" onmouseover="viewfourfifteenth()"> <a href="">手机、数码、京东通信</a>
+				   	  		<div id="four-fifteenth" class="four-list-view" >
+				   	  			<div class="all-list-left" >
+				   	  				
+				   	  			</div>   
+				   	  			<div class="all-list-right">
+				   	  				 <div class="right-img-first">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-second">
+				   	  				 	
+				   	  				 </div>
+				   	  				 <div class="right-img-third">
+				   	  				 	
+				   	  				 </div>
+				   	  			</div>
+				   	  			 
+                                     	<p>这是第十五个选项卡</p>
+				   	  		</div>
+				   	  	</li>
+				   	  </ul>
+				   </div>
+				   <div id="view-first" class="view-right-list" >
+				   		
+				   </div>
+				  
+			</div>
+			
+		</div>
+	</body>
+</html>

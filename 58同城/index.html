@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>58同城</title>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		 <div id="main">
+		 	<div id="title">
+		 		<div id="title-img">
+		 			
+		 		</div>
+		 		<div id="title-text">
+		 			用户注册
+		 			
+		 		</div>
+		 		<div id="title-right">
+		 			<span id=" biankuang">
+		 				<a href="">返回首页</a>
+		 			</span>
+		 			<span id="">
+		 				    <a href="">帮助</a> 
+		 			</span>
+		 			
+		 		</div>
+		 	</div>
+		 	<div id="native">
+		 		<div id="native-text">
+		 			<ul>
+		 				<li <a href="#" >微信注册</a></li>
+		 				<li class="youduiqi" ><a href="" onclick="viewsecond()">手机注册</a></li>
+		 				<li class="youduiqi"><a href="">邮箱注册</a></li>
+		 			</ul>
+		 			<span id="denglu-title">
+		 				已有账号?<a href="">请登录</a>
+		 			</span>
+		 		</div>
+		 	</div>
+		     <div id="content">
+		     	
+		     	  <div id="content-first"  style="display: none;" >
+		     	  	 <div id="first-left" >
+		     	  	 	<p>微信扫描二维码快速注册</p>
+		     	  	 	<div id="erweima" >
+		     	  	 		
+		     	  	 	</div>
+		     	  	 	<div id="temp">
+		     	  	 		
+		     	  	 	</div>
+		     	  	 	<span id="help">
+		     	  	 		<a href="" onmouseover="viewimg()" onmouseleave="noviewimg()">使用帮助</a>
+		     	  	 	</span>
+		     	  	 </div>
+		     	  	 
+		     	  	 <div id="first-right">
+		     	  	 	
+		     	  	 		<div id="right-img">
+		     	  	 			
+		     	  	 		</div>
+		     	  	 		<div id="right-list">
+		     	  	 			<ul>
+		     	  	 				<br />
+		     	  	 				<li>扫码 > 关注 > 确认 > 安全注册成功</li>
+		     	  	 				
+		     	  	 				<li class="firstform">用微信扫左侧二维码安全注册58账号：</li>
+		     	  	 				<li class="firstform">1、防止木马窃取密码</li>
+		     	  	 				<li class="firstform">2、防止键盘录制类盗号</li>
+		     	  	 				<li class="firstform">3、绑定微信提高安全级别</li>
+		     	  	 			</ul>
+		     	  	 		</div>
+		     	  	 
+		     	  	 </div>
+		     	  </div>
+		           <div id="content-second" style="display: block;">
+
+		           	    <form action="" method="post">
+		           	    	<br />
+		           	    	 <div class="shuru">
+		           	    	 	<span>手 机 号  </span> <input type="text" class="shurukuang" id="telephone"/>
+		           	    	 </div>
+		           	    	 <div class="shuru" >
+		           	    	 	<span id="">
+		           	    	 		密 &nbsp;&nbsp;码
+		           	    	 	</span>
+		           	    	 	<input type="text" class="shurukuang" id="passworld"/>
+		           	    	 </div>
+		           	    	 <div class="shuru">
+		           	    	 	<span> 确&nbsp;认&nbsp;密&nbsp;码</span>&nbsp;<input type="text" class="shurukuang" id="confirmpassword"/>
+		           	    	 </div>
+		           	    	 <div class="shuru">
+		           	    	 	<span>验 证 码</span>&nbsp;<input type="text" id="yanzhengma"/>
+		           	    	 	<span id="yzm-img">
+		           	    	 		
+		           	    	 	</span>
+		           	    	 	
+		           	    	 		
+		           	    	 	
+		           	    	 </div>
+		           	    	 <br />
+		           	    	 <br />
+		           	    	<p><input type="checkbox" name="" id="" value="" id="simpleselect" />我已阅读并同意<a href="">使用58同城协议</a></p>
+		           	    	<br />
+		           	    	
+		           	    	<input type="submit" value="确定" id="confirm"/>
+		           	    </form>
+		           	    
+		           	    
+		           </div>
+		           <div id="second-message">
+		           	    	<div id="user-message">
+		           	    		请输入您的手机号码
+		           	    	</div>
+		           	    	 <div id="passswoldmessage-down">
+		           	    	 	密码需要有字幕数字下滑下组成
+		           	    	 </div>
+		           	    	 <div id="passworld-agian">
+		           	    	 	请输入您的密码
+		           	    	 </div>
+		           	    	
+		           	    </div>
+		           <div id="content-third">
+
+		           	    <form action="" method="post">
+		           	    	<br />
+		           	    	 <div class="shuru">
+		           	    	 	<span>用 户 名  </span> <input type="text" class="shurukuang" placeholder="请输入信息" id="user"/>
+		           	    	 </div>
+		           	    	 <div class="shuru" >
+		           	    	 	<span id="">
+		           	    	 		密 &nbsp;&nbsp;码
+		           	    	 	</span>
+		           	    	 	<input type="text" class="shurukuang" id="passworld"/>
+		           	    	 </div>
+		           	    	 <div class="shuru" >
+		           	    	 	<span> 确&nbsp;认&nbsp;密&nbsp;码</span>&nbsp;<input type="text" class="shurukuang" id="confirmpassword"/>
+		           	    	 </div>
+		
+		   <br />
+		   <br />
+		           	    	<p><input type="checkbox" name="" id="" value="" id="simpleselect" />我已阅读并同意<a href="">使用58同城协议</a></p>
+		           	    	<br />
+		           	    	
+		           	    	<input type="submit" value="立即注册" id="confirm"/>
+		           	    </form>
+		           </div>
+		     </div>
+		 </div>
+	</body>
+</html>

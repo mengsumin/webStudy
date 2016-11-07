@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>个人注册</title>
+		
+         <link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
+	</head>
+	<body>
+		<div id="header">
+             <div id="headpicture">
+             	
+             </div>
+             <div id="huanying">
+             	  <h3>欢迎注册</h3>
+             </div>
+             <div id="denglu">
+             	<p>已有账号&nbsp;<a href="#">请登录</a></p>
+             </div>
+			
+		</div>
+		<form action="" method="post">
+			
+			
+		
+		<div id="content">
+			<div id="biaodan">
+
+				 <div class="wenbenkuang" id="firstwenbenkuang">
+				 	<div class="tishi">
+				 		<span>用户名</span>
+				 		
+				 	</div>
+				 	
+				 					 	<script>
+			function inputFocus()
+			{
+				document.getElementById("yonghuming").style.display="inline";
+				
+				/*document.getElementById("querenmima").style.display="inline";
+				document.getElementById("shoujima").style.display="inline";
+			   document.getElementById("yanzhengma").style.display="inline";*/
+				
+			}
+			function inputFocusmima()
+			{
+				document.getElementById("mima").style.display="inline";
+			}
+			function outputFocusmima()
+			{
+				document.getElementById("mima").style.display="none";
+			}
+			function outputFocus()
+			{
+				document.getElementById("yonghuming").style.display="none";
+				
+			/*	document.getElementById("querenmima").style.display="none";
+				document.getElementById("shoujima").style.display="none";
+			   document.getElementById("yanzhengma").style.display="none";*/
+			}
+			function inputFocusquerenmima()
+			{
+				document.getElementById("querenmima").style.display="inline";
+			}
+			function outputFocusquerenmima()
+			{
+				document.getElementById("querenmima").style.display="none";
+			}
+			function inputFocusyanzhengma()
+			{
+				document.getElementById("yanzhengma").style.display="inline";
+			}
+			function outputFocusyanzhengma()
+			{
+				document.getElementById("yanzhengma").style.display="none";
+			}
+			function inputFocusshoujiyanzheng()
+			{
+				document.getElementById("shoujiyanzheng").style.display="inline";
+			}
+			function outputFocusshoujiyanzheng()
+			{
+				document.getElementById("shoujiyanzheng").style.display="none";
+			}
+			
+		</script>
+				 	 <div class="shuru">
+				 	 	<input type="text" placeholder="您的账户名和登录名" onfocus="inputFocus()" onblur="outputFocus()"/>
+				 	 	 
+				 	 </div>
+				 	
+
+				 </div>
+				 <div class="xiaotishi">
+			      <em id="yonghuming"  style="display: none;">支持中文数字下划线4-20个字母组合</em>
+				 	
+				 </div>
+				 
+				 <div class="wenbenkuang">
+				 	<div class="tishi">
+				 		<span>设置密码</span>
+				 	</div>
+				 	<div class="shuru"><input type="text" placeholder="您的账户名和登录名" onfocus="inputFocusmima()" onblur="outputFocusmima()"/>
+				 	 	
+				 	 </div>
+				 	
+				 </div>
+				 <div class="xiaotishi">
+			      <em id="mima"  style="display: none;">建议字母数字下划线两种组合组合</em>
+				 	
+				 </div>
+				 
+				 <div class="wenbenkuang">
+				 	<div class="tishi">
+				 		<span>确认密码</span>
+				 	</div>
+				 	<div class="shuru">
+				 		<input type="text" placeholder="您的账户名和登录名" onfocus="inputFocusquerenmima()" onblur="outputFocusquerenmima()"/>
+				 	 
+				 	 </div>
+				 </div>
+				 <div class="xiaotishi">
+				 	<em id="querenmima"  style="display: none;outline: none;border: none;">请再次输入密码 </em>
+				 </div>
+	
+				 
+				 <div class="wenbenkuang">
+				 	<div class="tishi dianhua">
+				 	<script type="text/javascript">
+				 		  function displaymenu()
+				 		  {
+				 		  	
+				 		  	if(document.getElementById("xialakuang").style.display=="inline")
+				 		  	{
+				 		  		
+				 		  	}
+				 		  	else
+				 		  	{
+				 		  		document.getElementById("xialakuang").style.display="inline";
+				 		  	}
+				 		  	
+				 		  event.preventDefault(); 
+				 		  }
+				 		  	
+				 	 </script>
+				 		  
+				 		 <script>
+				 		  	
+                                   	function tihuan(temp)
+                                   	{
+                                   		document.getElementById("xianshi").innerHTML=temp;
+                                   
+                                   document.getElementById("xialakuang").style.display="none";
+                                   		
+                                          event.preventDefault();
+                                   	}
+                                   	
+                                   	
+                          </script>
+				 			<button id="xianshi" onclick="displaymenu()" >中国+86</button>
+				 		
+				 			<div id="xialakuang" style="display: none ;overflow: auto;" >
+                                   <div style="background-color: #EDEDED; "> 
+                                   	<a href="" id="zhongguo" onclick="tihuan(this.innerHTML)">中国&nbsp;+86</a></div>
+                                   
+                                   <div> <a  href="" onclick="tihuan(this.innerHTML)">泰国&nbsp;+86</a></div>
+                                   <div> <a  href="" onclick="tihuan(this.innerHTML)">台湾&nbsp;+86</a></div>
+                                   <div> <a  href="" onclick="tihuan(this.innerHTML)">香港&nbsp;+86</a></div>
+                                   <div> <a  href="" onclick="tihuan(this.innerHTML)">马来西亚&nbsp;+86</a></div>
+                                   <div> <a  href="" onclick="tihuan(this.innerHTML)">新加坡&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">日本&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">韩国&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">美国&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">加拿大&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">澳大利亚&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">新西兰&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">阿联酋&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">安哥拉&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">俄罗斯&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">法国&nbsp;+86</a></div>
+                                   <div> <a href="" onclick="tihuan(this.innerHTML)">菲律宾&nbsp;+86</a></div>
+                                   
+
+                                  
+                                   
+                                   
+                                   
+                                   
+				 			</div>
+				 	 
+				 		
+				 	</div>
+				 	<div class="shuru">
+				 		<input type="text" placeholder="您的账户名和登录名" onfocus="inputFocusshoujiyanzheng()" onblur="outputFocusshoujiyanzheng()"/>
+				 	 
+				 	 </div>
+				 </div>
+				 
+				 <div class="xiaotishi">
+				 	
+				 
+				 <em id="shoujiyanzheng"  style="display: none;">完成验证后，使用该手机登陆修改密码 </em>
+				 </div>
+				 <div class="wenbenkuang">
+				 	
+				 	<div class="tishi">
+				 		<span>验证码</span>
+				 	</div>
+				 	
+				 	<div class="shuru">
+                   <input type="text" placeholder="您的账户名和登录名" onfocus="inputFocusyanzhengma()" onblur="outputFocusyanzhengma()"/>
+				 	 </div>
+				 </div>
+				 <div class="xiaotishi">
+				 <em id="yanzhengma"  style="display: none;">看不清，点击图片更换验证码</em>
+				 </div>
+				 <div class="wenbenkuang">
+				 	<div class="tishi">
+				 		<span>手机验证码</span>
+				 	</div>
+				 	<div class="shuru"><input type="text" placeholder="您的账户名和登录名" onfocus="inputFocus()" onblur="outputFocus()"/>
+				 	 </div>
+				 </div>
+				 
+				 <p>我以阅读东京协议</p>
+				 <div id="anniu">
+				 	<input type="submit" name="" id="" value="立即注册" />
+				 </div>
+			</div>
+			<div id="duanxin">
+				<div id="tupian">
+					
+				</div>
+				<div id="qiyezhuce">
+					<a href="#">企业用户注册</a>
+				</div>
+				<div id="yingwen">
+					<a href=""><br />INTERNATIONAL <br /><br />CUSTOMERS </a>
+				</div>
+			</div>
+		</div>
+		</form>
+		<div id="booter">
+				<div id="first">
+				<ul>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">关于我们</a></li>
+					</ul>
+				</div>
+				<div id="banquan">
+					<p>Copyright©2004-2016  京东JD.com 版权所有</p>
+				</div>
+
+		</div>
+	</body>
+</html>

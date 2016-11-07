@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			
+		</title>
+	</head>
+	<body>
+		<script>
+			function view(temp)
+			{
+				document.getElementById("view").innerHTML=temp;
+				event.preventDefault();
+			}
+		</script>
+		<button id="view">哈哈</button> 
+		<div id="list">
+					<a href="" onclick="view(this.innerHTML)">中国&nbsp;+m</a>
+		            <a href="" onclick="view(this.innerHTML)">泰国&nbsp;+m</a>
+		</div>
+
+	</body>
+</html>

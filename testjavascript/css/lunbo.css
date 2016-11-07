@@ -1,0 +1,19 @@
+#lunbo/*//div*/
+{
+	width: 730px;
+	height: 455px;
+	border: 1px solid red;
+	overflow: hidden;
+	position: relative;/*//为什么这里要加relative？*/
+}
+#lunbo ul
+{
+	width: 4380px;
+     position: absolute;
+     left: 0px;
+     top:0px;
+}
+li
+{
+	float: left;
+}

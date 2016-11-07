@@ -1,0 +1,55 @@
+/*第一行*/
+#shortcut{
+	height: 30px;/*父元素已经设置了高度，也就是说能包含住浮动的子元素，所以他不需要清除浮动*/
+	background-color: #f1f1f1;
+}
+#area{
+	width: 78px;
+	position: relative;
+	height: 30px;
+	width: 76px;
+	line-height: 30px;
+}
+#area i{
+	display: inline-block;
+	transform: rotate(90deg);
+}
+.current-area{
+	height: 30px;
+	width: 76px;
+	font: 12px/30px;
+	position: absolute;
+	
+}
+.areas{
+	width: 310px;
+	display: none;
+	border: 1px solid #dddddd;
+	position: absolute;
+	left: 0;
+	top: 29px;
+	background-color: #fff;
+}
+/*当鼠标鼠标悬浮到area上的时候，areas要显示*/
+#area:hover .areas{
+	display: block;
+}
+#area:hover #area i{
+	display: inline-block;
+	transform: rotate(-180deg);
+}
+#area:hover .current-area{
+	border-left: 1px solid #dddddd ;
+	border-right: 1px solid #dddddd ;
+	z-index: 100;
+	background-color: #fff;
+}
+.areas li{
+	float: left;
+	width: 62px;
+	text-align: center;
+	cursor: pointer;
+}
+#userservice{
+	
+}

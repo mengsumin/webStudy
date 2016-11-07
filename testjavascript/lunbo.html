@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				height: 454px;
+				width: 730px;
+				border: 1px solid red;
+				margin-left: 100px;
+				
+			}
+			
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.onload= function ()
+			{
+				var address="";
+				var first="url(img/";
+				var last=".jpg)";
+				var i=1;
+				address=first+i+last;
+					
+				document.getElementById("playimgs").style.backgroundImage=address;
+				
+			}
+			
+		</script>
+		<div id="playimgs">
+			
+		</div>
+	</body>
+</html>

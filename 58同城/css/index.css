@@ -1,0 +1,290 @@
+#main{
+	width: 100%;
+	height: auto;
+
+}
+#title
+{
+	width: 1000px;
+	height: 83px;
+	border: 1px solid #cdcfd1;
+	clear:all;
+	margin-left: 173px;
+}
+#title-img{
+	width: 160px;
+	height: 45px;
+	background-image: url(../img/logo.gif);
+	border-right: 1px solid #cdcfd1;
+	float: left;
+    margin-left: 10px;
+	margin-top: 24px;
+	
+}
+#title-text{
+	width: 94px;
+	height: 29px;
+	float: left;
+	font-family: "微软雅黑";
+   font-size: 22px;
+   color: #666666;	
+    line-height: 29px;
+   margin-top: 24px;
+   
+}
+#title-right{
+	width: 158px;
+	height: 68px;
+
+	float: right;
+	margin-bottom: 0px;
+	line-height: 68px;
+	position: relative;
+	top:15px;
+}
+#title-right span
+{
+	float: right;
+	width: 60px;
+	height: 13px;
+	
+}
+#title-right span a:hover
+{
+	color: red;
+}
+#biankuang
+{
+	border-right: 1px solid #956695;
+}
+
+#native{
+	width: 679px;
+	height: 84px;
+	margin-left: 335px;
+	border-bottom: 1px solid #cdcfd1;
+
+
+}
+#native-text
+{
+	height: 42px;
+	position: relative;
+	top:42px;
+
+}
+#native-text li
+{
+	float: left;
+	width: 60px;
+	height: 42px;
+	text-align: center;
+	font-size: 15px;
+  position: relative;
+	margin-bottom: 0px;
+	line-height: 42px;
+
+}
+.youduiqi
+{
+	margin-left: 66px;
+}
+#content{
+	width: 680px;
+	height: 376px;
+}
+#content-first
+{
+	width: 680px;
+	height: 376px;
+
+	margin-left:335px ;
+}
+#denglu-title
+{
+
+	float: right;
+	position: relative;
+	top: 21px;
+	font-size: 14px;
+}
+#denglu-title a
+{
+	color:#0000cc ;
+}
+#denglu-title a:hover{
+	text-decoration: underline;
+}
+#first-left{
+	height: 315px;
+	width: 233px;
+	float: left;
+
+	text-align: center;
+}
+#first-left p{
+	display: block;
+    width: 139px;
+    height: 16px;
+    margin-top: 70px;
+	text-align: center;
+	margin-left: 76px;
+}
+#first-left span
+{
+	display: block;
+	text-align: center;
+	margin-bottom: 3px;
+	position: relative;
+	top:-11px;
+	margin-left: 80px;
+}
+#erweima{
+	height: 184px;
+	width: 189px;
+	background-image: url(../img/1.jpg);
+	position: relative;
+	left: 44px;
+	top:-1px;
+
+
+	
+	}
+#first-right{
+	width: 400px;
+	height: 265px;
+	float: right;
+
+	
+}
+#right-img
+{
+	width: 250px;
+	height: 30px;
+	background-image: url(../img/weixinreg.png);
+	margin-top: 70px;
+}
+#right-list
+{
+	
+}
+.firstform
+{
+	display: block;
+	height: 27px;
+	line-height: 27px;
+	font-size: 13px;
+	width: 230px;
+
+}
+
+#content-second{
+	width: 360px;
+	height: 340px;
+
+	margin-left: 389px;
+	
+}
+#confirm
+{
+	width: 111px;
+	height: 33px;
+	background-color: #f68911;
+	color: white;
+	border: 1px solid #f47602;
+	text-align: center;
+	font-size: 15px;
+margin-left: 119px;
+font-weight: bold;
+	
+	
+}
+.shuru
+{
+	height: 50px;
+	font-size: 13px;
+	color: #666666;
+	word-spacing: 15px;
+	line-height: 50px;
+	padding: 0;
+}
+.shuru span
+{
+	display: inline-block;
+	height:34px ;
+	width: 100px;
+
+	text-align:justify;
+	line-height: 34px;
+	
+	
+}
+.shuru input
+{
+	height: 34px;
+	margin-top: 23px;
+	
+}
+.shurukuang{
+	width:235px;
+
+	border: 1px solid #c8c8c8;
+}
+#yanzhengma
+{
+	width: 84px;
+}
+#yzm-img
+{
+	display: inline-block;
+	width: 97px;
+	height: 32px;
+	background-image: url(../img/validatecode.jpg);
+	position: relative;
+	top:15px;
+	right: 17px;
+}
+#notlook
+{
+	display: inline-block;
+	width: 42px;
+	height: 13px;
+	
+}
+#content-second{
+	display: none;
+	float: left;
+}
+#content-third{
+	width: 600px;
+	margin-left: 388px;
+	display: none;
+	
+}
+
+#temp
+{
+	
+	width: 252px;
+	height: 229px;
+	background-image: url(../img/2.png);
+	position: absolute;
+	top:194px;
+	display: none;
+}
+
+#second-message
+{
+	width: 200px;
+	height: 300px;
+
+	float: left;
+position: absolute;
+top:171px;
+left: 792px;
+}
+
+#second-message div
+{
+	display: none;
+}

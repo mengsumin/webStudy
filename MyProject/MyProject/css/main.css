@@ -1,0 +1,500 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+}
+#container{
+	width: 100%;
+	height: 1200px;
+}
+#header-top{
+	width: 100%;
+	height: 40px;
+	background-color: #FEFAF1;
+	border-bottom: 1px solid orange;
+}
+#header-top-content{
+	width: 1200px;
+	height: 40px;
+	margin: 0px auto;
+	font-size: 12px;
+	line-height: 40px;
+}
+.list-item{
+	width: 60px;
+	float: right;
+	color: black;
+	padding-left: 30px;
+}
+.menu-list{
+	list-style: none;
+	float: right;
+}
+#list-item-img1{
+	background-image: url(../img/hezuoqiye.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#list-item-img2{
+	background-image: url(../img/contactus.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#list-item-img3{
+	background-image: url(../img/howtobaoming.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#header-content{
+	width: 100%;
+	height: 110px;
+}
+#header-content-body{
+	width: 1200px;
+	height: 110px;
+	margin: 0px auto;
+	background-image: url(../img/tel.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#logo-img{
+	width: 187px;
+	height: 76px;
+	margin-top: 17px;
+	margin-left: 10px;
+	float: left;
+}
+#city-content{
+	width: 190px;
+	height: 80px;
+	margin-top: 15px;
+	margin-left: 10px;
+	float: left;
+}
+#city-center{
+	color: #64B92E;
+	line-height: 80px;
+	font-size: 16px;
+	background-image: url(../img/Library.png);
+	background-repeat: no-repeat;
+	background-size:30px 20px;
+	background-position: right;
+	padding-right: 32px;
+	float: left;
+}
+#city-ul{
+	float: left;
+	list-style: none;
+	margin-top: 35px;
+	margin-left: 5px;
+	font-size: 14px;
+}
+.city-list-item{
+	float: left;
+	margin:0px 2px;
+}
+#kh-img{
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#header-menu{
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+}
+#menu-content{
+	width: 1200px;
+	height: 50px;
+	background-color: #64B92E;
+	margin: 0px auto;
+}
+#menu-ul{
+	list-style: none;
+}
+.menu-list-item{
+	float: left;
+	line-height: 50px;
+	width: 110px;
+	text-align: center;
+	color: white;
+}
+a{
+	color:black;
+}
+ul a:hover{
+	color: red;
+}
+
+#menu-ul a:hover li{
+	background-color: #009900;
+}
+
+#banner{
+	width: 1200px;
+	height: 350px;
+	margin: 2px auto;
+	
+}
+#banner-img{
+	width: 1200px;
+	height: 350px;
+}
+
+#jyshow{
+	width: 1200px;
+	height: 272px;
+	margin: 6px auto;
+}
+.jyshow-content{
+	width: 290px;
+	height: 270px;
+	border: 1px solid #D5D5D5;
+	float: left;
+	margin-right: 12px;
+}
+.jyshow-title{
+	width: 280px;
+	height: 38px;
+	background-color: #FEFAF1;
+	padding-left: 10px;
+	line-height: 38px;
+	font-size: 14px;
+}
+.jyshow-title-no{
+	color: red;
+}
+.jyshow-img{
+	width: 240px;
+	height: 214px;
+	margin: 9px 25px;
+}
+#kbmsg{
+	width: 286px;
+	height: 270px;
+	border: 1px solid #F19212;
+	float: left;
+}
+#kbmsg-top{
+	width: 286px;
+	height: 38px;
+	background-color: #F19212;
+}
+#kbmsg-top-left{
+	width: 180px;
+	color: white;
+	font-size: 20px;
+	line-height: 38px;
+	background-image: url(../img/msg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+	margin-left: 5px;
+	float: left;
+}
+#kbmsg-top-right{
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+}
+#kbmsg-top-right a{
+	color: white;
+	font-weight: bold;
+	line-height: 38px;
+	text-decoration: none;
+}
+#msgshow{
+	width: 1200px;
+	background-color: aliceblue;
+	margin: 0px auto;
+}
+#personal-msgshow{
+	width: 900px;
+	height: 270px;
+	border: 1px solid #D5D5D5;
+	float: left;
+}
+#personal-msgshow-header{
+	width: 900px;
+	height: 40px;
+	background-color: #F19212;
+}
+.personal-msgshow-list{
+	float: left;
+	color: white;
+	text-align: center;
+}
+#personal-msgshow-ul{
+	list-style: none;
+	line-height: 40px;
+}
+.msgshow-list-10per{
+	width: 10%;
+}
+.msgshow-list-20per{
+	width: 20%;
+}
+#msgshow-li1-img{
+	width: 20px;
+	height: 14px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -310px;
+	display: inline-block;
+}
+#msgshow-li2-img{
+	width: 20px;
+	height: 14px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	background-position: -26px -310px;
+	display: inline-block;
+}
+#personal-msgshow-ul-list{
+	list-style: none;
+	line-height: 40px;
+}
+.personal-msgshow-li-list{
+	float: left;
+	text-align: center;
+	background-color: #FEFAF1;
+	font-size: 12px;
+}
+.personal-msgshow-li1-list{
+	float: left;
+	text-align: center;
+	background-color: #F7F0E0;
+	font-size: 12px;
+}
+#news-center{
+	width: 286px;
+	height: 306px;
+	border: 1px solid #D5D5D5;
+	float: right;
+}
+#news-center-header{
+	widows: 286px;
+	height: 40px;
+}
+#news-top{
+	width: 286px;
+	height: 38px;
+}
+#news-top-left{
+	width: 170px;
+	color: #64B92E;
+	font-size: 20px;
+	line-height: 38px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -244px;
+	padding-left: 40px;
+	margin-left: 5px;
+	float: left;
+}
+#news-top-right{
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+}
+#news-top-right a{
+	color: #64B92E;
+	font-weight: bold;
+	line-height: 38px;
+	text-decoration: none;
+}
+#news-center-content-list{
+	list-style: none;
+}
+.news-center-content-li{
+	font-size: 12px;
+	line-height: 36px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -280px;
+	text-indent: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#course-center{
+	width: 1200px;
+	margin: 0px auto;
+	clear: both;
+}
+#course-center-header{
+	margin-top: 5px;
+}
+#course-introduce{
+	color: #64B92E;
+	font-size: 20px;
+}
+#course-courses{
+	color: #F19212;
+	font-size: 14px;
+	font-style: italic;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#course-more{
+	color: #64B92E;
+	font-size: 14px;
+	margin-top: 12px;
+	text-decoration: none;
+	float: right;
+}
+#course-center-content{
+	margin: 10px 0px;
+}
+#course-no1{
+	width: 288px;
+	height: 316px;
+	border: 1px solid #D5D5D5;
+	text-align: center;
+	float: left;
+	margin-right: 13px;
+}
+#course-no2{
+	width: 288px;
+	height: 316px;
+	border: 1px solid #D5D5D5;
+	text-align: center;
+	float: left;
+	margin-right: 13px;
+}
+#course-no3{
+	width: 288px;
+	height: 316px;
+	border: 1px solid #D5D5D5;
+	text-align: center;
+	float: left;
+	margin-right: 14px;
+}
+#course-no4{
+	width: 288px;
+	height: 316px;
+	border: 1px solid #D5D5D5;
+	text-align: center;
+	float: left;
+}
+#course-no1-img img{
+	margin-top: 10px;
+}
+#course-name{
+	font-size: 20px;
+	font-family: "Arial";
+}
+#course-description{
+	height: 95px;
+	font-size: 12px;
+	text-indent: 14px;
+	font-family: "微软雅黑" arial;
+	text-align: left;
+	margin: 10px;
+}
+#course-info{
+	width: 120px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	background-color: #F18717;
+	margin-left: 84px;
+}
+#course-info a{
+	color: white;
+}
+#stu-course{
+	width: 1200px;
+	height: 200px;
+	clear: both;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+#stu-course-content{
+	width: 1198px;
+	height: 224px;
+	margin-top: 15px;
+	border: 1px solid #D5D5D5;
+}
+#stu-course-c1{
+	width: 291px;
+	height: 211px;
+	border: 4px solid white;
+	padding-top: 5px;
+	text-align: center;
+	margin-right: 1px;
+	float: left;
+}
+#stu-course-c2{
+	width: 291px;
+	height: 211px;
+	border: 4px solid white;
+	padding-top: 5px;
+	text-align: center;
+	float: left;
+}
+#stu-course-c3{
+	width: 291px;
+	height: 211px;
+	border: 4px solid white;
+	padding-top: 5px;
+	text-align: center;
+	margin-right: 1px;
+	float: left;
+}
+#stu-course-c4{
+	width: 291px;
+	height: 211px;
+	border: 4px solid white;
+	padding-top: 5px;
+	text-align: center;
+	float: left;
+}
+#stu-course-c1-img{
+	width: 291px;
+	height: 176px;
+}
+#stu-course-c1-text{
+	font-family: arial;
+}
+#stu-course-c1:hover{
+	border-color: #EAEAEA;
+}
+#stu-course-c2:hover{
+	border-color: #EAEAEA;
+}
+#stu-course-c3:hover{
+	border-color: #EAEAEA;
+}
+#stu-course-c4:hover{
+	border-color: #EAEAEA;
+}
+#stu-course-c1-text a{
+	text-decoration:none;
+}
+#stu-course-c1-text a:hover{
+	color: red;
+}
+#thanks-img{
+	width: 1200px;
+	height: 190px;
+	margin: 0px auto;
+	clear: both;
+}
+#thanks-img img{
+	margin-top: 10px;
+}
+#company{
+	width: 1200px;
+	height: 40px;
+	line-height: 40px;
+	margin: 10px auto;
+	font-size: 12px;
+}
+#company span{
+	color: #64B92E;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+}

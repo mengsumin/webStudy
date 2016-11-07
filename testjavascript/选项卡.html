@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		   <link rel="stylesheet" type="text/css" href="css/base.css"/>
+		   <link rel="stylesheet" type="text/css" href="css/selection.css"/>
+		   
+		   <style type="text/css">
+		   	#first
+		   	{
+		   		background-image: url(img/img1.jpg);
+		   		height: 200px;
+		   		width: 200px;
+		   	}
+		   	#second
+		   	{
+		   		height: 200px;
+		   		width: 200px;
+		   		background-image: url(img/img5.jpg);
+		   	}
+		   	.imgs{
+		   		display: none;
+		   	}
+		   	.actived
+		   	{
+		   		display: block;
+		   	}
+		   </style>
+		 
+	</head>
+	<body>
+		<div id="container">
+			<ul class="clearfix nav">
+				<li data-index="0" class="actived">第一个</li>
+			   <li data-index ="1"> 第二个</li>
+			</ul>
+		</div>
+		<div id="view" class="clearfix">
+			<div id="first" class="imgs fl actived">
+				
+			</div>
+			<div id="second" class="imgs fl">
+				
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

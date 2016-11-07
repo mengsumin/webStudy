@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--base标签式用来设置当前文档中所有的相对路径的基本路径-->
+		<!--<base href="http://localhost:8020/web01/" />-->
+	</head>
+	<body>
+		<!--<a href="../user/userlogin.html">登陆</a>-->
+		http://localhost:8020/web01/user/userlogin.html
+		<!--<a href="user/userlogin.html">登陆</a>-->
+		<a href="/web01/user/userlogin.html">登陆</a>
+	</body>
+</html>

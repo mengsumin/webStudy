@@ -1,0 +1,92 @@
+/*京东注册页面css*/
+
+/*头部css*/
+#header{
+	height: 110px;
+	width: 100%;
+	background: url(../img/headbg.jpg) repeat-x left bottom;
+}
+.logo{
+	/*行内元素默认不支持宽高，还有上下的margin,padding*/
+	width: 160px;
+	height: 46px;
+	display: inline-block;
+	background: url(../img/icon.png);
+	margin-top: 24px;
+}
+.welcome-regist{
+	padding-left: 24px;
+	margin: 30px 24px;
+	border-left: 1px solid #bbbbbb;
+	font-size: 18px;
+	color: #000000;
+	font-family: "微软雅黑";
+	height: 34px;
+	line-height: 34px;
+}
+.w{
+	width: 1210px;
+	height: 100%;
+	margin: 0 auto;
+}
+.welcome-login{
+	font-size: 16px;
+	color: #999999;
+	font-family: "微软雅黑";
+	margin-top: 54px;
+}
+.welcome-login a{
+	color: #333333;
+	margin-left: 4px;
+}
+/*注册部分css*/
+#regist{
+}
+.form-item-box{
+	border: 1px solid #dddddd;
+	padding: 20px;
+	font-size: 14px;
+}
+.form-item-box input{
+	border-style:none ;
+	outline: none;
+	padding-left: 20px;
+}
+.main{
+	width: 830px;
+	margin: 50px auto 60px;
+}
+.main form{
+	width: 400px;
+}
+.form-item-tip{
+	height: 32px;
+}
+.msg-tip{
+	display: none;
+}
+.error-tip{
+	display: none;
+}
+.telphone i{
+	display: inline-block;
+	width: 12px;
+	height: 8px;
+	background: url(../img/icon.png) no-repeat -2px -159px;
+}
+.telphone{
+	position: relative;
+}
+.area{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 40px;
+}
+.telphone:hover .area{
+	display: block;
+}
+/*脚部css*/
+#footer{
+	
+}

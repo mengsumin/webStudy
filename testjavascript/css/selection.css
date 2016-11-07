@@ -1,0 +1,9 @@
+.nav li
+{
+	float: left;
+}
+.nav li:hover
+{
+	background-color: blue;
+	color: white;
+}
